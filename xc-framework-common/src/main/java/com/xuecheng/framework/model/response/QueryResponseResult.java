@@ -10,7 +10,7 @@ public class QueryResponseResult extends ResponseResult {
     QueryResult queryResult;
 
     public QueryResponseResult(ResultCode resultCode,QueryResult queryResult){
-        super(resultCode);
+       super(resultCode);
        this.queryResult = queryResult;
     }
 

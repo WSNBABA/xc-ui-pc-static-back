@@ -13,3 +13,7 @@ spring:
       username: guest
       password: guest
       virtualHost: /
+  freemarker:
+      cache: false #关闭模板缓存，方便测试
+      settings:
+        template_update_delay: 0
